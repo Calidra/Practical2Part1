@@ -24,4 +24,10 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("String", stringtext);
         startActivity(intent);
     }
+
+    @Override
+    public void onBackPressed()
+    {
+        return;
+    }
 }

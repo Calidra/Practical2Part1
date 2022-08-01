@@ -29,4 +29,10 @@ public class MainActivity2 extends AppCompatActivity {
     {
         startActivity(new Intent(MainActivity2.this, MainActivity3.class));
     }
+
+    @Override
+    public void onBackPressed()
+    {
+        return;
+    }
 }

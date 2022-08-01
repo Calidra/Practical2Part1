@@ -18,4 +18,10 @@ public class MainActivity3 extends AppCompatActivity {
     {
         startActivity(new Intent(MainActivity3.this, MainActivity.class));
     }
+
+    @Override
+    public void onBackPressed()
+    {
+        return;
+    }
 }
