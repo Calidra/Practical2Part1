@@ -16,7 +16,7 @@
         android:gravity="center"
         android:text="Screen 1"
         android:layout_marginTop="100dp"
-        android:textSize="10pt"></TextView>
+        android:textSize="15pt"></TextView>
 
     <EditText
         android:id="@+id/editText1"
@@ -37,6 +37,7 @@
         android:layout_marginTop="10dp"
         android:onClick="movetoscreen2"
         android:text="Next Screen" />
+
 </LinearLayout>
 
 
